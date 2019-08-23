@@ -1,0 +1,27 @@
+{
+	"name": "witchiiwork/php-qr-code",
+	"description": "PHP QR Code generator.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Witchaphat Muangjansorn",
+			"email": "admin@witchii.work",
+			"homepage": "https://www.witchii.work/",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.1",
+		"ext-iconv": "*",
+		"witchiiwork/php-enum": "^1.0"
+	},
+	"suggest": {
+		"ext-imagick": "to generate QR code images"
+	},
+	"autoload": {
+		"psr-4": {
+			"W2W\\QRCode\\": "src"
+		}
+	}
+}
